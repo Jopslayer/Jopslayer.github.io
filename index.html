@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close">
+    <title>Apple store</title>
+</head>
+<body>
+    <img class="background-image" src="resources/background-image@2x.png" alt="">
+    <header class="header">
+        <h1>Checkout</h1>
+        <strong class="header__number_items">3 ITEMS</strong>
+    </header>
+    <main class="main">
+        <div class="main__item main__item--summary">
+            <ul class="main__item__list">
+                <li class="main__item__list__product">
+                    <div class="product__img-container"><img class="product__img" src="resources/Gold.png" alt=""></div>
+                    <div class="product__inf-container">
+                        <strong class="product__infs product__inf--name"><a class="product__inf--name" href="#">iPhone 12 Pro</a></strong>
+                        <strong class="product__infs product__inf--price">$999.00</strong>
+                        <span class="product__infs product__inf--color">Golden</span>
+                        <span class="product__infs product__inf--units">x 1</span>
+                        <label for="" class="product__infs product__inf--cancel"><span class="material-symbols-outlined">close</span></label>
+                    </div>
+                </li>
+                <li class="main__item__list__product">
+                    <div class="product__img-container"><img class="product__img" src="resources/Apple-watch.png" alt=""></div>
+                    <div class="product__inf-container">
+                        <strong class="product__infs product__inf--name"><a href="#">Apple Watch</a></strong>
+                        <strong class="product__infs product__inf--price">$399.00</strong>
+                        <span class="product__infs product__inf--color">Blue</span>
+                        <span class="product__infs product__inf--units">x 1</span>
+                        <label for="" class="product__infs product__inf--cancel"><span class="material-symbols-outlined">close</span></label>
+                    </div>
+                </li>
+                <li class="main__item__list__product">
+                    <div class="product__img-container"><img class="product__img" src="resources/iMac.png" alt=""></div>
+                    <div class="product__inf-container">
+                        <strong class="product__infs product__inf--name"><a href="#">iMac</a></strong>
+                        <strong class="product__infs product__inf--price">$1199.00</strong>
+                        <span class="product__infs product__inf--color">Green</span>
+                        <span class="product__infs product__inf--units">x 1</span>
+                        <label for="" class="product__infs product__inf--cancel"><span class="material-symbols-outlined">close</span></label>
+                    </div>
+                </li>
+            </ul>
+            <form class="main__item__form" action="">
+                <div class="summary_form__inputs">
+                    <input type="text" placeholder="Enter coupon code">
+                    <input type="submit" value="Apply Coupon">
+                </div>
+                <table class="summary_form__table">
+                    <tr class="table__tr">
+                        <th>Sub total</th>
+                        <td>$2597.00</td>
+                    </tr>
+                    <tr class="table__tr">
+                        <th>Tax</th>
+                        <td>$623.28</td>
+                    </tr>
+                    <tr class="table__tr">
+                        <th>Total</th>
+                        <td>$3220.28</td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <form class="main__item main__item--form" action="">
+            <h3>Contact Information</h3>
+            <div class="form__layout">
+                <label for="" class="form__input form__input--name">First & Last name
+                    <input type="text" placeholder="Enter first & last name">
+                </label>
+                <label for="" class="form__input form__input--email">Email Address
+                    <input type="text" placeholder="Enter email address">
+                </label>
+                <label for="" class="form__input form__input--country">Country
+                    <select>
+                        <option value="">Finland</option>
+                    </select>
+                </label>
+                <label for="" class="form__input form__input--postal">Postal Code
+                    <input type="text" placeholder="00270">
+                </label>
+                <input class="form__input form__input--submit" type="submit" name="" id="" value="Continue">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
